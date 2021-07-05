@@ -1,0 +1,36 @@
+.hero-table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.hero-table-header {
+	color: snow;
+	padding: 1rem;
+	border-bottom: 1px solid aliceblue;
+}
+
+.hero-table-body {
+	font-size: 0.8rem;
+}
+
+.hero-table-row {
+	color: snow;
+	border-radius: 5px;
+}
+
+.hero-table-row td{
+	padding: 1rem;
+}
+
+.hero-table-name {
+	display: flex;
+	align-items: center;
+}
+
+.hero-table-name img{
+	margin-right: 1rem;
+}
+
+.hero-table-row:hover {
+	background-color: #991b1e;
+}
