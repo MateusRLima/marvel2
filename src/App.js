@@ -6,9 +6,7 @@ import './App.css'
 function App() {
   return (
     <div className="App" style={{ }} >
-      <header>
-        <Header />
-      </header>
+      <Header />
       <main className="main-content">
         <HeroList />
       </main>

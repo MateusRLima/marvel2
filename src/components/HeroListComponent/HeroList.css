@@ -4,9 +4,9 @@
 }
 
 .hero-table-header {
-	color: snow;
+	color: #b2b3b7;
 	padding: 1rem;
-	border-bottom: 1px solid aliceblue;
+	border-bottom: 1px solid #b2b3b7;
 }
 
 .hero-table-body {
@@ -31,6 +31,19 @@
 	margin-right: 1rem;
 }
 
+@keyframes hover-row {
+	from { background-color: #0e1111; }
+	to { background-color: #991b1e; }
+}
+
 .hero-table-row:hover {
 	background-color: #991b1e;
+	animation-name: hover-row;
+  	animation-duration: 0.5s;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 768px) {
+
 }
